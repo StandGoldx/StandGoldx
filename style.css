@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+:root{--bg:#050d15;--p:#091824;--p2:#0d1e2b;--g:#f5c94b;--g2:#ffdf7b;--t:#f7fafc;--m:#8fa1ae;--l:#203542}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--t);font-family:Inter,Arial,sans-serif}a{color:inherit;text-decoration:none}.container{width:min(1240px,calc(100% - 34px));margin:auto}header{height:74px;border-bottom:1px solid #ffffff10;background:#040d15dd;backdrop-filter:blur(12px);position:relative;z-index:10}.head{height:100%;display:flex;align-items:center;justify-content:space-between}.logo{font-size:34px;font-weight:900;letter-spacing:-1.7px}.logo span{color:var(--g)}nav{display:flex;gap:10px;color:#aebbc4;font-size:15px;font-weight:800;align-items:center}nav a{padding:13px 18px;border:1px solid #203542;background:#07131eaa;border-radius:15px;transition:.2s}nav a:hover{color:#fff;background:#10222f;border-color:#3a4d59;transform:translateY(-1px)}.btn{border:0;cursor:pointer;font:inherit;font-weight:900;text-transform:uppercase}.gold{background:linear-gradient(135deg,var(--g2),var(--g));color:#111;padding:16px 25px;border-radius:16px;box-shadow:0 10px 30px #f5c94b22;transition:.2s}.gold:hover{transform:translateY(-1px);box-shadow:0 14px 34px #f5c94b33}.hero{min-height:650px;display:flex;align-items:center;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#040b11e8 0%,#040b11b8 38%,#040b1155 68%,#040b11c0 100%),linear-gradient(0deg,var(--bg),transparent 25%,transparent 80%,var(--bg)),url("assets/hero-bg.png") center center/cover no-repeat;filter:saturate(.8)}.hero-content{position:relative;padding:70px 0;max-width:730px}.eyebrow{color:var(--g);font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase;margin-bottom:15px}h1{font-size:clamp(43px,6vw,72px);line-height:.94;letter-spacing:-3px;text-transform:uppercase;margin:0 0 20px}h1 em{color:var(--g);font-style:normal}.lead{max-width:590px;color:#b8c4cc;font-size:14px;line-height:1.65;margin-bottom:18px}.rate{display:flex;align-items:baseline;gap:12px;margin-bottom:18px}.rate strong{font-size:29px}.rate span{color:var(--g);font-size:11px;font-weight:800}.exchange{width:min(760px,100%);background:#05121ccc;border:1px solid var(--l);padding:22px;border-radius:22px;backdrop-filter:blur(10px);box-shadow:0 22px 55px #0006}.inputs{display:grid;grid-template-columns:1fr 1fr;gap:10px}.field{background:#07131e;border:1px solid #203341;padding:20px;border-radius:16px}.field label{display:block;color:#718491;font-size:10px;font-weight:800;text-transform:uppercase;margin-bottom:7px}.row{display:flex;align-items:center;gap:8px}.field input{width:100%;min-width:0;border:0;outline:0;background:none;color:#fff;font-size:25px;font-weight:900}.currency{color:var(--g);font-size:11px;font-weight:900}.exchange .gold{width:100%;padding:17px;margin-top:10px}.promo-row{margin-top:10px}.promo-field{display:flex;align-items:center;justify-content:space-between;gap:12px}.promo-field .row{flex:1}.promo-field input{font-size:16px}.promo-apply{border:1px solid #3c4c57;background:#10222f;color:var(--g);padding:11px 15px;border-radius:12px;font-weight:900;cursor:pointer;text-transform:uppercase;font-size:10px}.promo-apply:hover{background:#172d3c}.promo-status{font-size:10px;color:#6f818e;margin:7px 2px 0}.promo-status.active{color:#35d17b}.hint{text-align:center;color:#71828d;font-size:10px;margin-top:9px}.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:-35px;position:relative}.trust>div,.stat,.step,.about,.review,.faq details,.cta{background:var(--p);border:1px solid var(--l);border-radius:20px}.trust>div{padding:32px 28px;display:flex;gap:17px;align-items:center;min-height:122px;box-shadow:0 14px 35px #0005}.ico{width:54px;height:54px;flex:0 0 54px;border:1px solid #3b4d58;border-radius:50%;display:grid;place-items:center;color:var(--g)}.trust b{font-size:15px}.trust small{display:block;color:var(--m);font-size:11px;margin-top:5px;line-height:1.35}section{padding:88px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:28px}.section-head h2{margin:0;font-size:34px;letter-spacing:-1.5px;text-transform:uppercase}
+.reviews-summary{display:inline-flex;align-items:center;gap:8px;color:var(--g);font-size:13px;font-weight:900;letter-spacing:.2px;white-space:nowrap;padding:10px 14px;border:1px solid var(--l);border-radius:14px;background:#091824cc;box-shadow:0 8px 24px #0004}.section-head p{max-width:460px;color:var(--m);font-size:12px;line-height:1.6}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{padding:34px;min-height:150px}.stat strong{font-size:32px;display:block}.stat span{color:var(--m);font-size:10px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{padding:34px;min-height:235px}.num{color:var(--g);font-size:11px;font-weight:900}.step h3{margin:35px 0 9px;font-size:15px;text-transform:uppercase}.step p,.about p{color:var(--m);font-size:11px;line-height:1.6}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.about{padding:42px}.about h3{font-size:30px;line-height:1.05;text-transform:uppercase;margin:8px 0 15px}.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:24px}.mini div{border:1px solid var(--l);padding:15px;text-align:center}.mini b{display:block;color:var(--g);font-size:20px}.mini span{color:var(--m);font-size:9px}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{min-height:150px;padding:20px}.avatar{width:68px;height:68px}.review{grid-template-columns:68px 1fr}.review p{font-size:12px}.review .top b{font-size:13px}.review{padding:26px;display:grid;grid-template-columns:82px 1fr;gap:16px;min-height:205px}.avatar{width:82px;height:82px;object-fit:cover;border-radius:16px}.top{display:flex;justify-content:space-between;gap:8px}.top b{font-size:14px}.date{color:#71828d;font-size:10px}.stars{color:var(--g);font-size:14px;margin-top:6px;letter-spacing:1px}.review p{grid-column:1/-1;color:#b6c2ca;font-size:13px;line-height:1.65;margin:0}.review-controls{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:24px}.page-btn{min-width:44px;height:44px;padding:0 13px;border:1px solid var(--l);background:#091824;color:#aebbc4;cursor:pointer;font-weight:800;border-radius:12px}.page-btn:hover,.page-btn.active{background:linear-gradient(135deg,var(--g2),var(--g));color:#111;border-color:var(--g)}.page-arrow{font-size:18px}.review-count{text-align:center;color:#71828d;font-size:10px;margin-top:10px}.faq{display:grid;gap:8px}.faq details{padding:20px 22px}.faq summary{cursor:pointer;font-size:12px;font-weight:800}.faq p{color:var(--m);font-size:11px;line-height:1.6}.cta{padding:42px;display:flex;justify-content:space-between;align-items:center;gap:20px}.cta h2{margin:0;font-size:27px;text-transform:uppercase}footer{border-top:1px solid var(--l);padding:28px 0;color:#687b87;font-size:10px}.foot{display:flex;justify-content:space-between;gap:20px}.footlogo{font-size:19px;color:#fff;font-weight:900}.footlogo span{color:var(--g)}.modal{display:none;position:fixed;inset:0;background:#000b;z-index:50;place-items:center;padding:18px}.modal.open{display:grid}.card{width:min(480px,100%);background:#091824;border:1px solid var(--l);padding:30px;border-radius:22px}.card-head{display:flex;justify-content:space-between}.card h3{margin:0 0 7px;font-size:23px;text-transform:uppercase}.card p{color:var(--m);font-size:10px;line-height:1.5}.close{background:none;border:0;color:#80919b;font-size:25px;cursor:pointer}.card input,.card select{width:100%;padding:14px;margin:6px 0;background:#07131e;color:#fff;border:1px solid var(--l);outline:0;border-radius:12px}.card .gold{width:100%;padding:16px;margin-top:7px}.toast{position:fixed;right:18px;bottom:18px;background:#0d1e2a;border:1px solid #294250;padding:14px 17px;font-size:11px;opacity:0;transform:translateY(20px);transition:.25s;z-index:70}.toast.show{opacity:1;transform:none}@media(max-width:850px){nav{display:none}.trust,.stats,.steps{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr}.reviews{grid-template-columns:1fr 1fr}.hero{min-height:700px}.section-head{display:block}.section-head p{margin-top:10px}.reviews-summary{margin-top:14px}.cta{display:block}.cta .gold{width:100%;margin-top:18px}}@media(max-width:540px){nav a{padding:10px 12px;font-size:13px}.promo-field{display:block}.promo-apply{width:100%;margin-top:8px}.logo{font-size:28px}.inputs{grid-template-columns:1fr}.trust,.stats,.steps,.reviews{grid-template-columns:1fr}.review{grid-template-columns:58px 1fr}.avatar{width:62px;height:62px;border-radius:14px}.hero-content{padding:50px 0}h1{letter-spacing:-1px}.rate strong{font-size:24px}.foot{display:block}.foot>div+div{margin-top:12px;text-align:left}.header-btn{padding:13px 18px;font-size:10px}}
+
+/* STANDGOLDX — GAMING PARALLAX */
+.hero{isolation:isolate;--parallax-y:0px;--glow-x:50%;--glow-y:50%}
+.hero::before{transform:translate3d(0,var(--parallax-y),0) scale(1.08);will-change:transform;transition:transform .08s linear}
+.hero::after{content:"";position:absolute;inset:-12%;z-index:0;pointer-events:none;background:radial-gradient(circle at var(--glow-x) var(--glow-y),rgba(245,201,75,.12),transparent 25%),radial-gradient(circle at calc(100% - var(--glow-x)) 30%,rgba(48,157,255,.08),transparent 25%);will-change:transform,background-position}
+.hero-content{z-index:2;transform:translate3d(0,var(--content-y,0px),0);will-change:transform}
+.trust{will-change:transform;transition:transform .25s ease}
+.stat,.step,.about,.review,.faq details,.trust>div,.exchange,.cta{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.stat:hover,.step:hover,.about:hover,.review:hover,.faq details:hover,.trust>div:hover,.exchange:hover,.cta:hover{transform:translateY(-4px);border-color:#f5c94b55;box-shadow:0 14px 40px rgba(0,0,0,.2)}
+@media(prefers-reduced-motion:reduce){.hero::before,.hero-content,.trust{transform:none!important;transition:none!important}.stat,.step,.about,.review,.faq details,.trust>div,.exchange,.cta{transition:none!important}}
+
+
+/* User requested navigation in white + GOLD word in gold */
+nav a{color:#fff !important}
+nav a:hover{color:#fff !important}
+.rate .gold-word{color:var(--g);font-weight:900;text-shadow:0 0 18px #f5c94b33}
+
+
+/* STANDGOLDX — ADVANCED GAMING ANIMATIONS + MOBILE */
+.hero{min-height:clamp(650px,calc(100vh - 74px),900px)}
+.hero::before{animation:heroBreath 12s ease-in-out infinite alternate}
+.hero-content{animation:heroEnter .8s cubic-bezier(.2,.8,.2,1) both}
+.eyebrow{animation:goldFlicker 4s ease-in-out infinite}
+.rate strong{display:inline-flex;align-items:center;gap:7px;text-shadow:0 0 24px rgba(245,201,75,.08)}
+.rate .gold-word{animation:goldPulse 2.8s ease-in-out infinite}
+.gold{position:relative;overflow:hidden;isolation:isolate}
+.gold::after{content:"";position:absolute;inset:-80% -30%;background:linear-gradient(110deg,transparent 42%,rgba(255,255,255,.45) 50%,transparent 58%);transform:translateX(-120%) rotate(8deg);animation:buttonShine 4.5s ease-in-out infinite;pointer-events:none;z-index:-1}
+.ico{animation:iconFloat 3.5s ease-in-out infinite}
+.trust>div:nth-child(2) .ico{animation-delay:.35s}.trust>div:nth-child(3) .ico{animation-delay:.7s}.trust>div:nth-child(4) .ico{animation-delay:1.05s}
+.stat,.step,.about,.review,.faq details,.trust>div,.exchange,.cta{transform:translateZ(0)}
+.stat:hover,.step:hover,.about:hover,.review:hover,.faq details:hover,.trust>div:hover,.exchange:hover,.cta:hover{transform:translateY(-7px) scale(1.012)}
+.review .avatar{transition:transform .35s ease,box-shadow .35s ease}.review:hover .avatar{transform:scale(1.05) rotate(-2deg);box-shadow:0 0 0 2px #f5c94b33,0 8px 25px #0007}
+.field:focus-within{border-color:#f5c94b66;box-shadow:0 0 0 3px #f5c94b0d,0 10px 30px #0003;transform:translateY(-2px);transition:.25s ease}
+.page-btn{transition:transform .2s ease,background .2s ease,border-color .2s ease}.page-btn:hover{transform:translateY(-2px)}
+.faq details[open]{border-color:#f5c94b44;box-shadow:0 10px 30px #0003}
+.mobile-menu{display:none;background:#07131eee;border:1px solid #3a4d59;border-radius:13px;width:44px;height:44px;padding:9px;cursor:pointer;flex-direction:column;justify-content:center;gap:5px}.mobile-menu span{display:block;height:2px;width:100%;background:#fff;border-radius:2px;transition:.25s}.mobile-menu.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}.mobile-menu.open span:nth-child(2){opacity:0}.mobile-menu.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.hero-particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}.hero-particle{position:absolute;width:2px;height:2px;border-radius:50%;background:#f5c94b;box-shadow:0 0 10px #f5c94b;opacity:0;animation:particleDrift linear infinite}
+
+@keyframes heroBreath{0%{background-position:center center}100%{background-position:center 53%}}
+@keyframes heroEnter{from{opacity:0;transform:translate3d(0,28px,0) scale(.985)}to{opacity:1;transform:translate3d(0,var(--content-y,0px),0) scale(1)}}
+@keyframes goldFlicker{0%,100%{opacity:1}50%{opacity:.78}}
+@keyframes goldPulse{0%,100%{text-shadow:0 0 12px rgba(245,201,75,.12)}50%{text-shadow:0 0 24px rgba(245,201,75,.42)}}
+@keyframes buttonShine{0%,65%{transform:translateX(-120%) rotate(8deg)}82%,100%{transform:translateX(120%) rotate(8deg)}}
+@keyframes iconFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes particleDrift{0%{transform:translate3d(0,30px,0) scale(.5);opacity:0}15%{opacity:.65}85%{opacity:.2}100%{transform:translate3d(var(--dx),-120px,0) scale(1.4);opacity:0}}
+
+@media(max-width:850px){
+  header{height:68px;position:sticky;top:0}.head{gap:10px}.logo{font-size:28px}.header-btn{padding:12px 16px;font-size:10px}.mobile-menu{display:flex;order:2}.header-btn{order:3}nav{order:4;display:none;position:absolute;left:17px;right:17px;top:60px;padding:10px;background:#06111beF;border:1px solid #2c414f;border-radius:18px;box-shadow:0 20px 45px #0008;backdrop-filter:blur(16px);flex-direction:column;gap:7px}nav.mobile-open{display:flex}nav a{width:100%;padding:14px 16px;text-align:center;background:#0b1b27;color:#fff!important}
+  .hero{min-height:calc(100svh - 68px);align-items:flex-start}.hero-content{padding:58px 0 40px;max-width:100%}.hero::before{background-position:center top;background-size:cover}.trust{margin-top:-12px}.exchange{padding:17px}.field{padding:17px}.field input{font-size:22px}.section-head h2{font-size:29px}.stats,.steps{grid-template-columns:1fr 1fr}.step{min-height:205px;padding:25px}.step h3{margin-top:25px}.about{padding:30px}.about h3{font-size:26px}.reviews{grid-template-columns:1fr 1fr}.cta{padding:30px}.hero-particles{display:block}
+}
+@media(max-width:540px){
+  .container{width:min(100% - 24px,1240px)}.head{height:68px}.logo{font-size:24px;letter-spacing:-1.2px}.header-btn{padding:11px 12px;border-radius:13px;font-size:9px}.mobile-menu{width:40px;height:40px}.hero{min-height:auto}.hero-content{padding:45px 0 34px}.eyebrow{font-size:9px;letter-spacing:1.6px}h1{font-size:clamp(38px,12vw,54px);line-height:.96;margin-bottom:16px}.lead{font-size:12px;line-height:1.55}.rate{gap:8px;flex-wrap:wrap;margin-bottom:15px}.rate strong{font-size:23px}.rate>span{font-size:9px}.exchange{border-radius:18px;padding:13px}.inputs{grid-template-columns:1fr;gap:8px}.field{padding:15px;border-radius:14px}.field input{font-size:21px}.currency{font-size:10px}.promo-field{display:block}.promo-field .row{margin-top:2px}.promo-apply{width:100%;margin-top:8px}.exchange .gold{padding:15px}.trust{grid-template-columns:1fr 1fr;margin-top:0;gap:8px}.trust>div{padding:17px 14px;min-height:92px;gap:10px;border-radius:16px}.ico{width:40px;height:40px;flex-basis:40px}.trust b{font-size:10px}.trust small{font-size:8px}.stats,.steps,.reviews{grid-template-columns:1fr}.stat{padding:25px;min-height:115px}.section-head{margin-bottom:20px}.section-head h2{font-size:26px}.section-head p{font-size:11px}.step{min-height:180px;padding:25px}.step h3{margin:22px 0 8px}.about{padding:25px}.about h3{font-size:25px}.mini{grid-template-columns:1fr 1fr 1fr}.reviews{gap:10px}.review{padding:20px;grid-template-columns:58px 1fr;min-height:175px}.avatar{width:58px;height:58px}.top{display:block}.date{display:block;margin-top:3px}.review p{font-size:11px}.faq details{padding:17px}.cta{padding:25px}.cta h2{font-size:23px}.foot{font-size:9px}.hero-particle{width:1.5px;height:1.5px}
+}
+@media(prefers-reduced-motion:reduce){.hero::before,.hero-content,.eyebrow,.rate .gold-word,.gold::after,.ico,.hero-particle{animation:none!important}.stat,.step,.about,.review,.faq details,.trust>div,.exchange,.cta{transition:none!important}}
+
+/* STANDGOLDX — WHY WE BUY GOLD */
+.why-gold-section{padding:34px 0 78px}
+.why-gold{position:relative;display:grid;grid-template-columns:180px 1fr;align-items:center;gap:34px;padding:38px 42px;overflow:hidden;border:1px solid #2a3d49;border-radius:24px;background:linear-gradient(135deg,rgba(10,25,36,.96),rgba(7,16,24,.92));box-shadow:0 18px 55px rgba(0,0,0,.22)}
+.why-gold::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 12% 50%,rgba(245,201,75,.16),transparent 27%),linear-gradient(100deg,transparent 35%,rgba(245,201,75,.035),transparent 70%)}
+.why-gold-mark{position:relative;z-index:1;width:150px;height:150px;display:flex;align-items:center;justify-content:center;border:1px solid #f5c94b55;border-radius:50%;font-size:25px;font-weight:950;letter-spacing:2px;color:var(--g);text-shadow:0 0 24px #f5c94b55;box-shadow:inset 0 0 35px #f5c94b0d,0 0 45px #f5c94b0b;animation:goldPulse 3s ease-in-out infinite}
+.why-gold-content{position:relative;z-index:1;max-width:820px}
+.why-gold-content h2{margin:7px 0 12px;font-size:34px;line-height:1.05}
+.why-gold-content p{margin:0;color:#aebcc5;font-size:15px;line-height:1.75;max-width:820px}
+.why-gold-content p strong{color:#eef3f6}
+@media(max-width:850px){.why-gold{grid-template-columns:120px 1fr;gap:24px;padding:30px}.why-gold-mark{width:110px;height:110px;font-size:18px}.why-gold-content h2{font-size:29px}.why-gold-content p{font-size:13px}}
+@media(max-width:540px){.why-gold-section{padding:24px 0 55px}.why-gold{grid-template-columns:1fr;padding:25px 20px;gap:18px;border-radius:20px}.why-gold-mark{width:76px;height:76px;font-size:12px;letter-spacing:1.5px}.why-gold-content h2{font-size:25px}.why-gold-content p{font-size:11px;line-height:1.65}}
+
+/* Gold bar + expanded demo reviews */
+.rate strong{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.rate .gold-icon{width:58px;height:38px;object-fit:contain;display:inline-block;vertical-align:middle;filter:drop-shadow(0 5px 12px rgba(245,201,75,.28));transition:transform .2s ease,filter .2s ease}
+.rate .gold-icon:hover{transform:translateY(-2px) rotate(-2deg);filter:drop-shadow(0 8px 18px rgba(245,201,75,.45))}
+.review .avatar{object-fit:cover}
+@media(max-width:540px){.rate .gold-icon{width:50px;height:33px}.rate strong{gap:6px}}
+
+
+/* STANDGOLDX — AUTO REVIEWS CAROUSEL */
+.reviews-viewport{overflow:hidden;width:100%;position:relative;touch-action:none;overscroll-behavior:none}
+.reviews-track{display:flex;gap:18px;will-change:transform;transform:translate3d(0,0,0);user-select:none}
+.reviews-track .review{flex:0 0 calc((100% - 36px)/3);width:calc((100% - 36px)/3);box-sizing:border-box}
+.review-controls,.review-count{display:none!important}
+@media(max-width:850px){.reviews-track .review{flex-basis:calc((100% - 18px)/2);width:calc((100% - 18px)/2)}}
+@media(max-width:540px){.reviews-track{gap:10px}.reviews-track .review{flex-basis:100%;width:100%}.reviews-viewport{overflow:hidden}}
+
+/* V19: use the proven v13 static hero background */
+.hero-video{display:none!important}
+
+/* V21 — social buttons */
+.socials{display:flex;gap:9px;margin-top:16px;flex-wrap:wrap}
+.social{display:inline-flex;align-items:center;gap:8px;padding:10px 13px;border:1px solid #263b48;border-radius:13px;background:#071722cc;color:#fff;text-decoration:none;font-size:11px;font-weight:900;letter-spacing:.2px;transition:transform .22s ease,border-color .22s ease,background .22s ease,box-shadow .22s ease}
+.social svg{width:17px;height:17px;fill:currentColor;display:block}
+.social:hover{transform:translateY(-3px);border-color:#f5c94b66;background:#0b1d29;box-shadow:0 10px 25px #0005}
+.social.tg:hover{color:#fff}
+.social.yt:hover{color:#fff}
+.social.tt:hover{color:#fff}
+@media(max-width:540px){.socials{gap:7px;margin-top:13px}.social{padding:9px 10px;font-size:10px}.social svg{width:16px;height:16px}}
+
+/* V22 — social buttons beside Exchange Gold */
+.header-actions{display:flex;align-items:center;gap:9px;margin-left:auto}
+.header-socials{display:flex;align-items:center;gap:7px}
+.header-social{width:40px;height:40px;display:grid;place-items:center;border:1px solid #263b48;border-radius:12px;background:#071722cc;color:#d7e0e5;transition:transform .2s ease,border-color .2s ease,background .2s ease,color .2s ease,box-shadow .2s ease}
+.header-social svg{width:18px;height:18px;fill:currentColor}
+.header-social:hover{transform:translateY(-2px);color:#fff;border-color:#f5c94b66;background:#0b1d29;box-shadow:0 8px 20px #0005}
+@media(max-width:1100px){.head nav{gap:6px}.head nav a{padding:12px 13px}.header-social{width:37px;height:37px}}
+@media(max-width:850px){.header-actions{gap:7px}.header-socials{display:none}}
+
+
+/* V23 — centered main navigation */
+@media(min-width:851px){
+  .head{position:relative;}
+  .head > nav{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
+  .head > .header-actions{margin-left:auto;}
+}
+.cta .gold{text-decoration:none;display:inline-flex;align-items:center;justify-content:center;}
+@media(max-width:850px){.cta .gold{width:100%;}}
