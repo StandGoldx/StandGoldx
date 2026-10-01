@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://standgoldx.github.io/StandGoldx/sitemap.xml
